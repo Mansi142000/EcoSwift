@@ -1,0 +1,59 @@
+.eco-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .eco-image-section {
+    width: 55%;
+    padding: 10px;
+    padding-left: 2.5em;
+    padding-right: 0;
+  }
+  
+  .eco-text-section {
+    width: 40%;
+    padding-right: 2.5em;
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .eco-logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .eco-analysis {
+    font-size: 25px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 2.5em;
+  }
+  
+  .eco-paragraph {
+    font-size: 25px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 700px) {
+    .eco-container {
+      flex-direction: column;
+    }
+  
+    .eco-image-section,
+    .eco-text-section {
+      width: 100%;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  
+    .eco-logo {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
